@@ -1,0 +1,36 @@
+/* src/ColorPicker.css */
+
+.color-picker {
+    text-align: center;
+  }
+  
+  button {
+    margin: 20px;
+    font-size: 18px;
+    border: solid 1px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    box-shadow: 2px 2px 0.6em rgb(0, 0, 0), -0.1em -0.09em .6em rgb(255, 255, 255);
+  }
+  
+  .color-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .color-square {
+    width: 1cm;
+    height: 1cm;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .selected-color {
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    margin-top: -150px;
+    border-radius: 15px;
+  }
+  
